@@ -1,5 +1,4 @@
-import React from 'react'
-import { FETCH_API_SUCCESS,FETCH_API_REQUEST,FETCH_API_ERROR } from './apiTypes'
+import { FETCH_API_ERROR, FETCH_API_REQUEST, FETCH_API_SUCCESS } from './apiTypes';
 
 const initialState = {
     loading: false,
